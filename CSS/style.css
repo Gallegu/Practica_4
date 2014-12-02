@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+*{
+margin:0;
+padding:0;
+}
+
+body{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	margin:20px;
+
+}
+
+#Cabecera{
+	
+	width: 100%;
+	height: 70px;
+	font-family:"Lucida Console", Monaco, monospace;
+	text-align:center;
+	display:block;
+	background:#3F3;
+	border: 2px solid #666;
+	margin-top:30px;
+}
+
+#Contenido{padding: 20px;}
+
+#Pie{
+	
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	display:block;
+	background:#0F3;
+	border: 2px solid #06F;
+	margin-right:10px;
+}
+
+
+.menu{
+	display:inline-block;
+	top:10px;
+	width:21%;
+	padding:20px;
+	border:1px solid #C00;
+	background:#666;
+	color:#FFF;
+	font-family:"Comic Sans MS", cursive;
+	border-radius:10px;
+	color:#FFF;
+	text-decoration:none;
+	
+}
+
+.menu li a{
+	color:#FFF;
+	text-decoration:none;
+}
+                      
+#Menu{
+	width:100%;
+	top:10px;
+}
